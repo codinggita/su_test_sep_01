@@ -1,0 +1,157 @@
+ <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arjun Dubey • Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+ <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background: #fff; color: #222; line-height: 1.6; }
+  header { display: flex; justify-content: space-between; align-items: center; padding: 20px; border-bottom: 2px solid #ccc; }
+    header img { width: 120px; border-radius: 50%; }
+    header h1 { margin: 0; font-size: 26px; }
+    header p { margin: 4px 0; font-size: 16px; }
+    .btns { margin-top: 10px; }
+    .btns a { text-decoration: none; padding: 10px 18px; border-radius: 6px; margin-right: 10px; font-size: 14px; }
+    .hire { background: #007bff; color: #fff; }
+    .resume { border: 1px solid #222; color: #222; }
+    section { padding: 30px 20px; border-bottom: 1px solid #ddd; }
+    h2 { margin-bottom: 10px; font-size: 22px; }
+    .skills, .projects, .experiences, .certificates { display: grid; gap: 20px; }
+    .skills { grid-template-columns: repeat(4, 1fr); }
+    .skills div { border: 1px solid #000; padding: 10px; }
+    .projects { grid-template-columns: repeat(4, 1fr); }
+    .projects div, .experiences div, .certificates div { border: 1px solid #000; padding: 12px; }
+    .contact { padding: 20px; background: #f8f8f8; }
+    .contact p { margin: 5px 0; }
+    footer { text-align: center; padding: 15px; background: #222; color: #fff; }
+    @media(max-width: 900px){
+      .skills, .projects { grid-template-columns: repeat(2,1fr); }
+    }
+    @media(max-width: 600px){
+      .skills, .projects { grid-template-columns: 1fr; }
+      header { flex-direction: column; text-align: center; }
+    }
+  </style>  
+</head>
+<body>
+  <header>
+    <div>
+      <h1>ARJUN DUBEY</h1>
+      <p>Aspiring Software Engineer</p>
+      <div class="btns">
+        <a href="#contact" class="hire">HIRE ME</a>
+        <a href="#" class="resume">Download Resume</a>
+      </div>
+    </div>
+    <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="Profile Picture">
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>I'm a software engineer specializing in building exceptional digital experiences. I'm currently looking for new opportunities and am eager to contribute to a dynamic team.</p>
+  </section>
+
+  <section>
+    <h2>Key Achievements</h2>
+    <p>Led the development of a high traffic web application with over 1 million users.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div>
+        <h3>Languages</h3>
+        <p>JavaScript<br>Python<br>Java</p>
+      </div>
+      <div>
+        <h3>Frameworks</h3>
+        <p>React<br>Angular</p>
+      </div>
+      <div>
+        <h3>Tools</h3>
+        <p>Git<br>Docker<br>AWS</p>
+      </div>
+      <div>
+        <h3>Soft Skills</h3>
+        <p>Communication<br>Leadership<br>Problem-Solving</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div>
+        <img src="https://thafd.bing.com/th/id/OIP.ZZBw7VBR8rlaUQz3y2Gx0AHaET?w=251&h=180&c=7&r=0&o=7&pid=1.7&rm=3">
+        <h3>E-commerce Website</h3>
+        <p>React, Node.js</p>
+        <a href="#">View Project</a>
+      </div>
+      <div>
+        <img src="data:image/webp;base64,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">
+        <h3>Task Management</h3>
+        <p>React, Firebase</p>
+        <a href="#">View Project</a>
+      </div>
+      <div>
+        <img src="https://thafd.bing.com/th/id/OIP.HqxgjalF9_nYLLXaao231wHaEK?w=256&h=180&c=7&r=0&o=7&pid=1.7&rm=3">
+        <h3>Blog Platform</h3>
+        <p>Django, PostgreSQL</p>
+        <a href="#">View Project</a>
+      </div>
+      <div>
+        <img src="https://codehalweb.com/wp-content/uploads/2023/05/thumbnail-12.jpg" width="200" height="200">
+        <h3>Portfolio Website</h3>
+        <p>HTML, CSS</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experiences</h2>
+    <div class="experiences">
+      <div>
+        <h3>Internships</h3>
+        <p>Open source program in GSOC 2025<br>Currently working in Deloitte as an intern</p>
+      </div>
+      <div>
+        <h3>Freelancing</h3>
+        <p>Worked on Fiverr for foreign clients</p>
+      </div>
+      <div>
+        <h3>Hackathons</h3>
+        <p>Participated in 9 hackathons and won 6 of them</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="certificates">
+    <h2>Certificates</h2>
+    <div>
+      <p>1. First certificate is from IBM for specialization in DevOps (Coursera)</p>
+      <p>2. Second is from Nobel Desktop for specialization in Frontend</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p>Completed my secondary and senior secondary education from Parshav International School in 2024.</p>
+  </section>
+
+  <section>
+    <h2>Hobbies</h2>
+    <p>Travelling<br>Sports: Cricket, Tennis<br>Talking to strangers</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p><strong>Mobile:</strong> 8233305031</p>
+    <p><strong>Email:</strong> arjundubey.cg@gmail.com</p>
+    <p><strong>Instagram:</strong> itsarjundubey</p>
+  </section>
+
+  
+</body>
+</html>

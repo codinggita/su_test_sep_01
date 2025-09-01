@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+	int a;
+	int num;
+	int fact=1;
+	printf("Enter a number: ");
+	scanf("%d",&num);
+	for(a=1; a<=num; a++) {
+		fact=fact*a;
+		printf("fact of %d=%d\n",num,fact);
+	}
+	return 0;
+}

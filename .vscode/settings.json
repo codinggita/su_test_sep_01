@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "c.C": "cpp",
+        ".C": "cpp",
+        "Q1.C": "cpp",
+        "Q2.C": "cpp",
+        "Q3.C": "cpp",
+        "q32.C": "cpp",
+        "q323.C": "cpp",
+        "Q4.C": "cpp",
+        "Q42.C": "cpp",
+        "Q6.C": "cpp",
+        "Q8.C": "cpp",
+        "Q7.C": "cpp",
+        "Q82.C": "cpp",
+        "Q10.C": "cpp"
+    }
+}

@@ -1,0 +1,14 @@
+//Write a C program that checks whether a number is a power of 2 using bitwise operators.
+#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+    if(n>0 && (n & (n-1))==0){
+        printf("A power of 2 \n");
+    }
+    else{
+        printf("Not a power of 2 \n");
+    }
+    return 0;
+}

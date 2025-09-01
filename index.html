@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!--HEADER & NAVIGATION-->
+  <header>
+    <nav>
+      <!--Navigation links using #id to scroll to each section -->
+      <a href="#home">Home</a> |
+      <a href="#about">About</a> |
+      <a href="#education">Education</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#certificates">Certificates</a> |
+      <a href="#hobbies">Hobbies</a> |
+      <a href="#experience">Experience</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <!--MAIN (All page content) -->
+  <main>
+    <!--HERO / INTRODUCTION -->
+    <section id="home">
+      <h1>Prathvik Mehra</h1>
+      <h2>Aspiring Software Engineer & Front-End Developer</h2>
+      <!--Profile image (replace src with your image path) -->
+      <img src="profile.jpg" alt="Profile photo of Prathvik Mehra" width="160" height="160">
+      <!--Link to resume file in the root (resume.pdf) -->
+      <p>
+        <a href="resume.pdf" download>Download Resume</a>
+      </p>
+    </section>
+    <!--ABOUT ME -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a <b>motivated</b> student developer who loves building web interfaces.
+        I enjoy problem solving and learning new technologies. I am currently focused on
+        <i>front-end development</i> and improving my <u>UI design</u> skills. <mark>Fast learner</mark> and team player.
+      </p>
+    </section>
+    <!--EDUCATION (Table) -->
+    <section id="education">
+      <h2>Education</h2>
+      <table border="1" cellpadding="6">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Institution</th>
+            <th>Degree</th>
+            <th>CGPA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2023 -Present</td>
+            <td>Swaminarayan University</td>
+            <td>B.Tech — Computer Science</td>
+            <td>In Progress</td>
+          </tr>
+          <tr>
+            <td>2021 – 2023</td>
+            <td>ABC Senior Secondary School</td>      
+            <td>Class 12 (Science)</td>
+            <td>87%</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- PROJECTS (Ordered List -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ol>
+        <li>
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive portfolio showcasing projects, experience, and contact details. Built using HTML and vanilla JavaScript.</p>
+          <p><a href="http://codinggita.com/"noopener">View Project</a></p>
+        </li>
+        <li>
+          <h3>GitHub Profile Finder</h3>
+          <p>A small app that fetches GitHub user data and lists repositories using the GitHub public API.</p>
+          <p><a href="http://codinggita.com/">View Project</a></p>
+        </li>
+        <li>
+          <h3>To-Do List Web App</h3>
+          <p>A task manager with add, mark-complete, and delete functionality stored in localStorage for persistence.</p>
+          <p><a href="http://codinggita.com/">View Project</a></p>
+        </li>
+      </ol>
+    </section>
+    <!--CERTIFICATES (Unordered List) -->
+    <section id="certificates">
+      <h2>Certificates</h2>
+      <ul>
+        <li>HTML & CSS for Beginners -oursera-2024</li>
+        <li>JavaScript Essentials -demy-2024</li>
+        <li>Front-End Web Development -reeCodeCamp -023</li>
+      </ul>
+    </section>
+    <!--hOBBIES -->
+    <section id="hobbies">
+      <h2>Hobbies & Interests</h2>
+      <ul>
+        <li>Photography;</li>
+        <li>Playing Football;</li>
+        <li>Listening to Music;</li>
+      </ul>
+    </section>
+    <!--EXPERIENCE-->
+    <section id="experience">
+      <h2>Experience</h2>
+      <section>
+        <p>Internship: Front-end Intern at XYZ Solutions — worked on landing pages and component improvements.</p>
+        <p>Freelance: Website design for a local shop — created a responsive landing page and contact form.</p>
+        <p>Hackathon: Participated in Smart India Hackathon 2024 — contributed to prototype and UI.</p>
+      </section>
+    </section>
+    <!--CONTACT (Form)-->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <!-- Simple contact form (action left blank - HTML only) -->
+      <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+        <input type="submit" value="Send Message">
+      </form>
+    </section>
+    <!--EXTRA FEATURE: IFRAME (YouTube)-->
+    <section id="media">
+      <h2>Featured Talk</h2>
+      <!--Embedded YouTube video (replace src with your chosen video) -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/31GFzP-b30k?si=KN0hX8R_ABn3JfzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+  </main>
+  <!-- FOOTER-->
+  <footer>
+    <p>© 2025 Prathvik Mehra | All Rights Reserved</p>
+    <p>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a> 
+      <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+<img src="OIP.png" alt="profile photo" > 
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zeel's Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; scroll-behavior: smooth; margin: 0; padding: 0; }
+    header, footer { background-color: #222; color: white; padding: 1em; text-align: center; }
+    nav a { margin: 0 10px; color: white; text-decoration: none; }
+    section { padding: 2em; }
+    img { max-width: 150px; border-radius: 50%; }
+    table, th, td { border: 1px solid black; border-collapse: collapse; padding: 8px; }
+    iframe { width: 100%; height: 300px; border: none; }
+  </style>
+</head>
+<body>
+
+<!-- 1. Header & Navigation -->
+<header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- 2. Hero Section -->
+<section id="home">
+  <h1>Zeel kundariya</h1>
+  <p>Front-End Developer | Aspiring Software Engineer</p>
+  <img src="Bugatti at Airport.jpg" alt="Zeel's Profile Image">
+  <p><a href="Group1.pdf" download>Download Resume</a></p>
+</section>
+
+<!-- 3. About Me -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hi! I'm <b>Zeel kundariya</b>, a <i>passionate programmer</i> and <u>creative designer</u> who loves remixing ideas into beautiful code. I enjoy <mark>exploring digital aesthetics</mark> and building beginner-friendly tech content.</p>
+</section>
+
+<!-- 4. Education -->
+<section id="education">
+  <h2>Education</h2>
+  <table>
+    <tr><th>Year</th><th>Institution</th><th>Degree</th><th>Result/CGPA</th></tr>
+    <tr><td>2025–2028</td><td>Codinggita</td><td>B.Sc. Computer Science</td><td>9.1 CGPA</td></tr>
+    <tr><td>2022–2024</td><td>Khyati World School</td><td>Higher Secondary</td><td>85%</td></tr>
+  </table>
+</section>
+
+<!-- 5. Projects -->
+<section id="projects">
+  <h2>Projects</h2>
+  <ol>
+    <li>
+      <h3>Ganeshji Insta Reel</h3>
+      <p>Designed a devotional-themed Instagram reel cover blending college vibes and cultural.</p>
+      <a href="http://codinggita.com/">View Project</a>
+    </li>
+    <li>
+      <h3>Portfolio Website</h3>
+      <p>Personal site built with HTML/CSS/JS  .</p>
+      <a href="http://codinggita.com/">View Project</a>
+    </li>
+    <li>
+      <h3>Interactive HTML Form</h3>
+      <p>Built and styled a responsive HTML/CSS/JS form for college events with aesthetic layout.</p>
+      <a href="http://codinggita.com/">View Project</a>
+    </li>
+  </ol>
+</section>
+
+<!-- 6. Certificates -->
+<section id="certificates">
+  <h2>Certificates</h2>
+  <ul>
+    <li>Git & GitHub Essentials – Coursera – 2024</li>
+    <li>HTML/CSS Mastery – Udemy – 2023</li>
+    <li>Smart India Hackathon Participant – MHRD – 2024</li>
+  </ul>
+</section>
+
+<!-- 7. Hobbies -->
+<section id="hobbies">
+  <h2>Hobbies</h2>
+  <ul>
+    <li>Designing Instagram Covers &starf;</li>
+    <li>Explorig the world &hearts;</li>
+    <li>Exploring Video Editing Apps &phone;</li>
+  </ul>
+</section>
+
+<!-- 8. Experience -->
+<section>
+  <h2>Experience</h2>
+  <p>Participated in Smart India Hackathon 2024 – built a college event management prototype.</p>
+  <p>Freelanced on Instagram branding projects for local artists and students.</p>
+  <p>Interned at CodeKalpana Studio, assisting in UI/UX design and Git documentation.</p>
+</section>
+
+<!-- 9. Contact Me -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form>
+    <label>Name:</label><br>
+    <input type="text" name="name"><br><br>
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+    <label>Message:</label><br>
+    <textarea name="message" rows="5" cols="30"></textarea><br><br>
+    <input type="submit" value="Send">
+  </form>
+</section>
+
+<!-- 10. Extra Features -->
+<section>
+  <h2>My Favorite Tech Talk</h2>
+  <iframe src="https://www.youtube.com/embed/tLBlhp0SA_0?si=Q_IQYh4PT2K74lpN"allowfullscreen></iframe>" allowfullscreen></iframe>
+</section>
+
+
+<!-- 11. Footer -->
+<footer>
+  <p>© 2025 Zeel Kundariya</p>
+  <p>
+    <a href="https://github.com/zeel.kundariya.m.cg" target="_blank">GitHub</a> |
+    <a href="https://linkedin.com/in/zeelkundariya.m.cg" target="_blank">LinkedIn</a>
+  </p>
+</footer>
+
+</body>
+</html>

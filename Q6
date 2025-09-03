@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int num, digit, sum = 0;
+
+    // Step 1: Get number from user
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    // Use absolute value to handle negative numbers
+    num = (num < 0) ? -num : num;
+
+    // Step 2: Use while loop to find sum of digits
+    while (num != 0) {
+        digit = num % 10;
+        sum += digit;
+        num /= 10;
+    }
+
+    // Step 3: Print the result
+    printf("Sum of digits = %d\n", sum);
+
+    return 0;
+}

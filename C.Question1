@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main()
+{
+  char a;
+  scanf("%c",&a);
+  if(a>=65 && a<=122){
+      printf("alphabet");
+     
+  }
+  else{
+      printf("invalid");
+  }
+
+
+int NUM;
+scanf("%d",&NUM);
+if(NUM>=0 && NUM<=9){
+    printf("DIGIT");
+}
+else{
+    printf("invalid");
+}
+char sym;
+scanf("%c",&sym);
+if(sym>=33 && sym<=47){
+    printf("special symbol");
+}
+else{
+    printf("invalid");
+}
+    return 0;
+}

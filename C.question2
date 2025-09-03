@@ -1,0 +1,27 @@
+	int units;
+	int result;
+	printf("Enter the units: ");
+	scanf("%d", &units);
+	if(units>=0 && units<=50) {
+		result = units * 2 + 100 ;
+		printf("₹%d is your Total Bill", result);
+
+	}
+	if(units>=51 && units<=100) {
+		result = units * 3 + 100;
+		printf("₹%d is your Total Bill", result);
+
+	}
+	if(units>=101 && units<=200) {
+		result = units * 4 + 100;
+		printf("₹%d is your Total Bill", result);
+	}
+	if(units>=201 && units<=300) {
+		result = units * 5 + 100;
+		printf("₹%d is your Total Bill", result);
+	}
+	if(units>=301 && units<=500) {
+		result = units * 6 + 100;
+		printf("₹%d is your Total Bill", result);
+	}
+	

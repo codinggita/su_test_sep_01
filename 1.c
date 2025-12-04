@@ -18,5 +18,5 @@ int main()
     else{
         printf("special symbol");
     }
-    return 0;
+    return 0;;;
 }
